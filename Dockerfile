@@ -10,5 +10,3 @@ RUN apt-get update && \
 WORKDIR /opt
 
 RUN curl -sL https://firebase.tools | bash
-
-WORKDIR /opt/firebase
